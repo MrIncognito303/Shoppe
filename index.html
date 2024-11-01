@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astral Blik Zone - Sklep</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Astral Blik Zone</h1>
+    <nav>
+        <a href="#products">Produkty</a>
+        <a href="#about">O nas</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="products">
+        <h2>Nasze Produkty</h2>
+        <div class="product">
+            <h3>Dostęp do bramki</h3>
+            <p>Uzyskaj dostęp do bramki, aby korzystać z najlepszych funkcji.</p>
+            <p>Cena: <strong>99 PLN</strong></p>
+            <a href="#" class="button">Kup teraz</a>
+        </div>
+        <div class="product">
+            <h3>Kont OXL</h3>
+            <p>Zakup konta OLX do łatwego handlu online.</p>
+            <p>Cena: <strong>79 PLN</strong></p>
+            <a href="#" class="button">Kup teraz</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Astral Blik Zone to innowacyjny sklep internetowy, który oferuje dostęp do bramek oraz kont OLX. Naszym celem jest zapewnienie najlepszych rozwiązań dla naszych klientów, aby ułatwić im handel online.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Skontaktuj się z nami!</p>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br><br>
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit" class="button">Wyślij</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Astral Blik Zone - Wszystkie prawa zastrzeżone</p>
+</footer>
+
+</body>
+</html>
